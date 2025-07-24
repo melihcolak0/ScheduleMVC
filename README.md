@@ -50,7 +50,7 @@ Bu proje, aşağıdaki becerileri geliştirmek amacıyla hazırlanmıştır:
 🗄️ MS SQL Server<br>
 🎨 FullCalendar (Bootstrap temalı)<br>
 🛠️ jQuery & AJAX<br>
-🎨 HTML5, CSS3, Bootstrap<br>
+🎨 HTML5, CSS3, JavaScript, Bootstrap<br>
 🗃️ Admin LTE v3 Teması<br>
 
 Projede genel anlamda 1 bölüm bulunmaktadır.<br>
