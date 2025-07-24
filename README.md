@@ -61,6 +61,13 @@ Ana Sayfa: Burada kullanıcı, Takvim Çizelgesi uygulaması ile etkinliklerini 
 ## :arrow_forward: Projeden Ekran Görüntüleri
 
 ### :triangular_flag_on_post: Ana Sayfa
+
+https://github.com/user-attachments/assets/2c5c435f-e6d7-4ba5-9e1e-bcd2129dcdd1
+
+## 🎬 Etkinlik Çizelgesi Videosu
+👉 [Buradan izleyin](https://github.com/melihcolak0/ScheduleMVC/raw/1a0d5a0d1b9637fda6f7322cecfcb8ffe23e594d/ss/video2.mp4)
+
+
 <div align="center">
   <img src="https://github.com/melihcolak0/ScheduleMVC/blob/1a0d5a0d1b9637fda6f7322cecfcb8ffe23e594d/ss/adwd.png" alt="image alt">
 </div>
