@@ -5,33 +5,57 @@ Bu proje, ASP.NET MVC (Web Application – .NET Framework) yapısı kullanılara
 
 Bu projeyle amacım, bir kullanıcının günlük etkniliklerini düzenli bir şekilde takvim üzerinde kullanabileceği bir ortam sağlamaktır. Proje üzerinde gelişitirilebilir birçok yer bulunabilir. Amacım kendimi geliştirmek ve deneyim kazanmaktır.<br>
 
-###  Kullandığım Teknolojiler:<br>
-🧠 ASP.NET Web App (.NET Framework 4.7.2 (MVC Mimarisi))<br>
+### 🎯 Geliştirme Amaçları<br>
+Bu proje, aşağıdaki becerileri geliştirmek amacıyla hazırlanmıştır:
+- ASP.NET MVC ile tam işlevsel bir web uygulaması geliştirmek
+- Code First yaklaşımıyla veritabanı modelleme
+- FullCalendar ile modern ve kullanıcı dostu bir arayüz oluşturmak
+- AJAX ile sayfa yenilemeden veri işlemleri yapmak
+- Etkinlik yönetimi gibi gerçek dünya problemlerine çözüm sunmak
+
+---
+
+### 📆 Takvim Özellikleri<br>
+✅ FullCalendar Entegrasyonu
+- dayGridMonth, timeGridWeek, timeGridDay gibi görünüm modlarıyla zengin takvim deneyimi
+- Etkinlik sürükleyip bırakma (drag & drop)
+- Yeni etkinlik oluşturma ve takvime bırakma
+- Etkinliği doğrudan takvim üzerinde silme veya taşıma
+- Takvim öğelerinde renk ve kategori bilgisi
+
+✅ Kategori Yönetimi
+- Etkinliklere kategori atayabilme
+- Renk kodlu kategori tanımlamaları
+- Her etkinlik, ait olduğu kategoriye göre farklı renkte görünür
+
+✅ Veri Kalıcılığı
+- Tüm etkinlikler veritabanına kayıt edilir
+- Değişiklikler anlık olarak AJAX ile yansıtılır
+
+✅ Code First Veritabanı Yapısı
+- Event, Category sınıfları Entity Framework üzerinden oluşturuldu
+- Migration işlemleriyle veritabanı şeması otomatik üretildi
+- SQL Server üzerinde tam ilişkisel yapı kuruldu
+
+✅ Türkçe Takvim Desteği
+- locale: 'tr' ve locales-all.js kullanılarak takvim arayüzü tamamen Türkçeleştirildi
+- “Bugün”, “Ay”, “Hafta”, “Gün” gibi başlıklar yerelleştirildi
+
+---
+
+###  🚀 Kullandığım Teknolojiler:<br>
+💻 ASP.NET Web App (.NET Framework 4.7.2 (MVC Mimarisi))<br>
 🗂️ Tek Katmanlı Dosya Yapısı - Presentation Layer<br>
-🛢️ Entity Framework (Code First)<br>
+📦 Entity Framework (Code First)<br>
 🗄️ MS SQL Server<br>
-💾 JSON Parsing (Newtonsoft.Json)<br>
-🔗 RapidAPI (Farklı veri kaynaklarına API entegrasyonu)<br>
-🤖 Hugging Face API (Yapay zeka modelleriyle resim oluşturma)<br>
-🌍 Localization (EN-TR TR-EN) – Dil Desteği<br>
-🧩 jQuery, AJAX, JSON<br>
-🎨 Bootstrap, HTML5, CSS3<br><br>
+🎨 FullCalendar (Bootstrap temalı)<br>
+🛠️ jQuery & AJAX<br>
+🎨 HTML5, CSS3, Bootstrap<br>
+🗃️ Admin LTE v3 Teması<br>
 
-💻 ASP.NET MVC (.NET Framework)
+Projede genel anlamda 1 bölüm bulunmaktadır.<br>
+Ana Sayfa: Burada kullanıcı, Takvim Çizelgesi uygulaması ile etkinliklerini düzenleyebilir, Etkinlik ve Kategori entity'lerinin de CRUD işlemlerini yapabilir.<br>
 
-🎨 FullCalendar v5 (Bootstrap temalı)
-
-📦 Entity Framework – Code First Yaklaşımı
-
-🗃️ SQL Server (Veritabanı)
-
-🛠️ jQuery & AJAX
-
-🌍 Localization: Türkçe dil desteği
-
-Projede genel anlamda 2 bölüm bulunmaktadır.<br>
-Ana Sayfa: Burada kullanıcı Ana Sayfa'da LifeSure sigorta firması ile ilgili Hakkında, Özellikler ve Hizmetler gibi birçok alanın bilgilerini görüntülemektedir.<br>
-Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümler ile ilgili CRUD işlemlerini yapar. Hizmetler ve SSS bölümleri için de yapay zeka destekli bir sistem ile Hizmet resmi oluşturma ve Sıkça Sorulan Soru ve Cevap üretimi yapılabilir.
 
 ---
 
