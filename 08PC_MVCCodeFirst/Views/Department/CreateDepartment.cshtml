@@ -1,0 +1,19 @@
+﻿@model _08PC_MVCCodeFirst.Entities.Department
+@{
+    Layout = null;
+}
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br /> <br />
+
+    <form method="post">
+        <label>Departman Adı</label>
+        @Html.TextBoxFor(x => x.DepartmentName, new {@class = "form-control"})
+        <br />
+        <button class="btn btn-success">Ekle</button>
+    </form>
+    
+</div>
