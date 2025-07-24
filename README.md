@@ -62,5 +62,8 @@ Ana Sayfa: Burada kullanıcı, Takvim Çizelgesi uygulaması ile etkinliklerini 
 
 ### :triangular_flag_on_post: Ana Sayfa
 <div align="center">
-  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Default_Index%20(1).png" alt="image alt">
+  <img src="https://github.com/melihcolak0/ScheduleMVC/blob/1a0d5a0d1b9637fda6f7322cecfcb8ffe23e594d/ss/adwd.png" alt="image alt">
 </div>
+
+
+
