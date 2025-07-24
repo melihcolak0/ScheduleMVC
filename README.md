@@ -1,4 +1,4 @@
-# 🚀 Modern Schedule App - ASP.NET MVC ile Takvim Çizelgesi Uygulaması – FullCalendar Entegrasyonu
+# 🚀 ASP.NET MVC ile Takvim Çizelgesi Uygulaması
 Bu repository, M&Y Yazılım Akademi bünyesinde yaptığım sekizinci proje olan ASP.NET MVC ile Takvim Çizelgesi Uygulaması projesini içermektedir. Bu eğitimde bana yol gösteren Murat Yücedağ'a çok teşekkür ederim.
 
 Bu proje, ASP.NET MVC (Web Application – .NET Framework) yapısı kullanılarak geliştirilmiş, kullanıcıların etkinlik oluşturabileceği, bu etkinlikleri takvime sürükleyip bırakabileceği ve silme - güncelleme işlemlerini yapabileceği, etkinlik süresini uzatarak ayarlayabileceği ve ay - hafta - gün bazında her türlü zamanda etkinlikleri konumlandırabileceği bir etkinlik yönetim sistemidir. Proje, modern arayüzü ve güçlü planlama özellikleriyle özellikle toplantı, görev ve kişisel ajanda uygulamaları için örnek teşkil etmektedir. Takvim uygulaması dışında Kategori ve Etkinlik entity'lerinin CRUD işlemleri de yapılabilmektedir.
@@ -55,7 +55,6 @@ Bu proje, aşağıdaki becerileri geliştirmek amacıyla hazırlanmıştır:
 
 Projede genel anlamda 1 bölüm bulunmaktadır.<br>
 Ana Sayfa: Burada kullanıcı, Takvim Çizelgesi uygulaması ile etkinliklerini düzenleyebilir, Etkinlik ve Kategori entity'lerinin de CRUD işlemlerini yapabilir.<br>
-
 
 ---
 
